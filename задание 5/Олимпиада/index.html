@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Олимпиада</title>
+</head>
+<body>
+    <header class="header">
+        
+            <div class="col-md-12 text-center">
+                <h1>Олимпиада</h1>
+            </div>
+               
+    </header>
+
+    <div class="registration">
+        <div class="reg-content">
+            <div class="container">
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                              <th scope="col">id</th>
+                              <th scope="col">Имя</th>
+                              <th scope="col">Очки</th>
+                            </tr>
+                        </thead>
+                        <tbody id="newItem">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content" id="main">
+        <input type="text" class = "input-ru" id="txt" placeholder="введите имена участников через запятую">
+        <input type="button" value="Добавить" id="btn-reg">  
+        
+        <div id="new-dialog" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>Введите имена участников в текстовое поле через запятую и нажмите "Добавить"</p>
+                </div>
+                <div class="modal-futer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Закрыть
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </main>
+    
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
