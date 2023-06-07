@@ -27,7 +27,7 @@ $(document).ready(function($){
                     type: "GET",
                     url: 'test.php',
                     success: function(data){
-                            item = $("<tr><th>" + id + "</th><td>" + names[i - 1] + "</td><td>" + data + "</td></tr>");          
+                            item = $("<tr><td>" + id + "</td><td>" + names[i - 1] + "</td><td>" + data + "</td></tr>");          
                             $("#newItem").append(item);
                             id++;
                         }

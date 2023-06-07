@@ -5,6 +5,16 @@
     font-style: normal;
 }
 
+#index:hover{
+    cursor:pointer;
+}
+#name:hover{
+    cursor:pointer;
+}
+#score:hover{
+    cursor:pointer;
+}
+
 header{
     z-index: 99999;
     position: fixed;
@@ -92,7 +102,7 @@ header h1 {
 }
 
 .modal-dialog {
-    z-index: 9999999;
+    z-index: 999999;
     position: fixed;
     left: 15%;
     right: 15%;
